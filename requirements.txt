@@ -8,4 +8,4 @@ pillow==9.5.0
 py-tgcalls==0.9.7
 python-dotenv
 tgcrypto
-https://github.com/adityahalder/pyrogram/archive/master.zip
+pyrofork
