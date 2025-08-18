@@ -283,7 +283,7 @@ async def deny_access(msg, is_callback=False):
         return await msg.reply_text("❌ You are not an admin. This command is restricted.")
 
 async def get_stream_info(query, streamtype):
-    api_url = "https://proxy.spotifytech.shop"
+    api_url = "https://proxy.spotifytech.shop/youtube"
     api_key = "SANATANI_TECH"
     video = True if streamtype.lower() == "video" else False
     params = {"query": query, "video": video, "api_key": api_key}
