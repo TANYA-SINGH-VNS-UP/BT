@@ -80,7 +80,7 @@ OWNER_ID = int(getenv("OWNER_ID", 0))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", 0))
 
 
-app = Client("App", api_id=API_ID, api_hash=API_HASH, session_string=STRING_SESSION)
+app = Client("App", api_id=API_ID, api_hash=API_HASH, session_string="BQEzliYAtgbjsW0pHNoGt6IWPWsIs9o28tNLtgpP9iP2GirEvfZGdyF2RzzeBnXq-udgWy3U-BYP1wbthY2IOejaj5eMWsY_TfagGRLjUMlsBYvPQ0eT1NLWSgnEYjabRoTEAhtz7_R_-UUk839WqyZ-MLoDd8sCACXnBKdAoYXJNjcAs-Auybqe6HJseY_IpRsC8xh8YZ1dWeSFSWd5wo4sXBr38OLuiAKrsl4EEB-q6whgCLO7-kjAnReKUZ_3GnPwSMSVM-2AT1-P8_6Ovfy5d02P4FqsMJMvDc7FNjeo7ZeB-plzBtsXwXynFXZpvoFau-JCv98g57uo5xgEy2fQwVjeNwAAAAHV9VG_AA")
 bot = Client("Bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 call = PyTgCalls(app)
 only_owner = filters.user(OWNER_ID)
